@@ -84,6 +84,10 @@
         "staticFilePath": "dist/apps/angular-store/browser",
         "spa": true
       }
+    },
+    "deploy": {
+      "dependsOn": "build",
+      "command": "netlify deploy --dir=dist/angular-store"
     }
   }
 }

@@ -1,0 +1,8 @@
+[build]
+  command = "npx nx build angular-store"
+  publish = "dist/apps/angular-store"
+
+[[redirects]]
+  from = "/*"
+  to = "/index.html"
+  status = 200
